@@ -46,6 +46,28 @@ width: 100px;
 
    .header header{
      width: 100%;
-    height: 45vw;
+    height: 43vw;
     background-color: blueviolet;
+    background-image: url(../img/header.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+   }
+
+   .header header .header-layer{
+background-color: rgba(0,0,0,0.4);
+width: 100%;
+height: 100%;
+display:flex;
+justify-content: space-between;
+align-items: center;
+padding: 0 7%;
+   }
+
+   .header-left h4{
+    text-decoration: none;
+    font-family: Raleway,sans-serif;
+    font-variant-caps: normal;
+    color: white;
+    padding: 20px 10px;
    }
