@@ -151,9 +151,33 @@ grid-gap: 0 30px;
     width: 100%;
     padding: 10px 0;
     color: white;
+    border-bottom-left-radius: 5px ;
+    border-bottom-right-radius: 5px ;
 
 }
 
+/* social media header */
+
+.social-media{
+    width: 100%;  
+    padding: 20px 7%; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 
 
+.social-left h4{
+    font-size: 18px;
+  }
 
+.social-left p{
+    font-size: 15px;
+    color: gray;
+}
+
+.social-right .icons a{
+    color: lightgray;
+    font-size: 40px;
+    margin: 0 20px;
+} 
