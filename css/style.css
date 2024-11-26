@@ -177,7 +177,34 @@ grid-gap: 0 30px;
 }
 
 .social-right .icons a{
+
     color: lightgray;
     font-size: 40px;
     margin: 0 20px;
 } 
+
+/* Featured Section */
+/* Feature 01 */
+.feature-1{
+    width: 100%;  
+    padding: 20px 7%; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.feature-1 .tabs-area{
+    align-content: center;
+    background-color: #fe8b38;
+    padding: 25px 25px;
+}
+
+.feature-1 .tabs-area .tab {
+    width:100px;
+    height:100px;
+    background-color: #333333;
+    color: white;
+    text-decoration: none;
+    align-content: center;
+    align-items: center;
+}
